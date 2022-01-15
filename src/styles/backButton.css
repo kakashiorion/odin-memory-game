@@ -1,0 +1,17 @@
+.backButton {
+  font-size: 24px;
+  padding: 8px;
+  color: var(--secondaryColor);
+  background-color: var(--darkColor);
+  border-radius: 4px;
+  border: 2px solid var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.backButton:hover {
+  background-color: var(--primaryColor);
+  box-shadow: 0px 0px 2px 2px var(--secondaryColor);
+}

@@ -1,0 +1,43 @@
+.difficulty {
+  display: grid;
+  color: var(--lightColor);
+  gap: 16px;
+}
+
+.difficulty div {
+  font-size: 4vh;
+  color: var(--secondaryColor);
+}
+
+.difficultyButton {
+  font-size: 16px;
+  padding: 8px;
+  color: var(--secondaryColor);
+  background-color: var(--darkColor);
+  border-radius: 4px;
+  border: 2px solid var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.difficultyButton:hover {
+  background-color: var(--primaryColor);
+  box-shadow: 0px 0px 2px 2px var(--secondaryColor);
+}
+
+.active {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  box-shadow: 0px 0px 2px 2px var(--secondaryColor);
+}
+
+.active:hover {
+  background-color: var(--darkColor);
+}
+
+.difficultyList {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}

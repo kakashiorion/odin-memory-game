@@ -1,0 +1,28 @@
+:root {
+  --tertiaryColor: #f07167;
+  --primaryColor: #00afb9;
+  --darkColor: #0081a7;
+  --lightColor: #ebebeb;
+  --greyColor: #c0c0c0;
+  --secondaryColor: #fed9b7;
+}
+
+body {
+  margin: 0px;
+}
+
+.gameInstruction {
+  background-color: var(--tertiaryColor);
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  padding: 16px;
+}
+
+.memoryGameBoard {
+  background-color: var(--greyColor);
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  grid-template-columns: repeat(5, 1fr);
+}

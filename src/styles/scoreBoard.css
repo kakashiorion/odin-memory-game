@@ -1,0 +1,19 @@
+.scoreBoard {
+  /* width: 30vw; */
+  color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+  border-radius: 16px;
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  gap: 16px;
+}
+p {
+  margin: 0px;
+}
+.playerScore {
+  color: var(--lightColor);
+  font-size: 32px;
+}

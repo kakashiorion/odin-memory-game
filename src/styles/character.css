@@ -1,0 +1,28 @@
+.characterCard {
+  padding: 8px;
+  display: grid;
+  border-radius: 8px;
+  border: 2px solid var(--darkColor);
+  gap: 8px;
+  background-color: var(--lightColor);
+}
+
+.characterCard:hover {
+  box-shadow: 0px 0px 4px 4px var(--primaryColor);
+}
+
+.characterImage {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.characterImage img {
+  max-width: 80%;
+}
+
+.characterName {
+  font-size: 16px;
+  justify-content: center;
+  display: flex;
+}
