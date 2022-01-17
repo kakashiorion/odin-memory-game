@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/odin-memory-game/static/css/main.e6cbcf51.css",
-    "main.js": "/odin-memory-game/static/js/main.7b82386f.js",
+    "main.css": "/odin-memory-game/static/css/main.77830113.css",
+    "main.js": "/odin-memory-game/static/js/main.2d5d3151.js",
+    "static/media/rickandmorty.jpeg": "/odin-memory-game/static/media/rickandmorty.1b6b6f02d3e72d0a4497.jpeg",
     "index.html": "/odin-memory-game/index.html",
-    "main.e6cbcf51.css.map": "/odin-memory-game/static/css/main.e6cbcf51.css.map",
-    "main.7b82386f.js.map": "/odin-memory-game/static/js/main.7b82386f.js.map"
+    "main.77830113.css.map": "/odin-memory-game/static/css/main.77830113.css.map",
+    "main.2d5d3151.js.map": "/odin-memory-game/static/js/main.2d5d3151.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6cbcf51.css",
-    "static/js/main.7b82386f.js"
+    "static/css/main.77830113.css",
+    "static/js/main.2d5d3151.js"
   ]
 }
