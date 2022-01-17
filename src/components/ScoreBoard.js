@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/scoreBoard.css";
 
 export default function ScoreBoard(props) {
   return (
     <div className="scoreBoard">
-      <p>Your Score:</p>
+      <p>Player Score:</p>
       <Score score={props.score} />
     </div>
   );

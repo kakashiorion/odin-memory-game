@@ -10,10 +10,18 @@ export default function CharacterCard(props) {
   );
 }
 
-function CharacterImage(props) {
+export function CharacterImage(props) {
   return (
     <div className="characterImage">
-      <img src={props.src} alt={props.name} />
+      <img src={props.src} alt="Character" />
+    </div>
+  );
+}
+
+export function PairingImage(props) {
+  return (
+    <div className="pairing-image">
+      <img src={props.src} alt="Character" onClick={() => props.onClick()} />
     </div>
   );
 }

@@ -11,14 +11,20 @@
   box-shadow: 0px 0px 4px 4px var(--primaryColor);
 }
 
-.characterImage {
+.characterImage,
+.pairing-image {
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.characterImage img {
+.characterImage img,
+.pairing-image img {
   max-width: 80%;
+}
+
+.pairing-image img:hover {
+  box-shadow: 0px 0px 2px 2px var(--primaryColor);
 }
 
 .characterName {

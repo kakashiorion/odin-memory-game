@@ -18,17 +18,17 @@ function DifficultyList(props) {
   return (
     <div className="difficultyList">
       <DifficultyButton
-        level="Low (10)"
+        level="Low"
         setLevel={() => props.changeDiffLevel("Low")}
         isActive={"Low" === currentLevel ? true : false}
       />
       <DifficultyButton
-        level="Medium (15)"
+        level="Medium"
         setLevel={() => props.changeDiffLevel("Medium")}
         isActive={"Medium" === currentLevel ? true : false}
       />
       <DifficultyButton
-        level="High (20)"
+        level="High"
         setLevel={() => props.changeDiffLevel("High")}
         isActive={"High" === currentLevel ? true : false}
       />

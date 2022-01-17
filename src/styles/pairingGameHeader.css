@@ -1,0 +1,8 @@
+.pairing-game-header {
+  background-color: var(--darkColor);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}

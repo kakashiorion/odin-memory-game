@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CardPairingGame from "./CardPairingGame";
+import CardPairingGame from "./PairingGame";
 import MemoryGame from "./MemoryGame";
 import "../styles/startScreen.css";
 

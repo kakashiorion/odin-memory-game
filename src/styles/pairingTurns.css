@@ -1,4 +1,4 @@
-.scoreBoard {
+.pairing-turns {
   color: var(--secondaryColor);
   border: 1px solid var(--secondaryColor);
   border-radius: 16px;
@@ -12,7 +12,7 @@
 p {
   margin: 0px;
 }
-.playerScore {
+.turns {
   color: var(--lightColor);
   font-size: 32px;
 }
